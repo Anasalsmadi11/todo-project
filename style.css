@@ -28,3 +28,10 @@ th {
     background-color: #9f9b9b;
     padding: 10px;
 }
+
+section{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
