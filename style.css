@@ -72,21 +72,85 @@ td span{
     background-color: red;  
 }
 
-footer div{
-    position: relative;
-}
-.footer{
-    display: flex;
-    justify-content: space-between;
-    padding: 22px;
-    width: 100%;
- 
-    position: fixed;
-    bottom: 20px;
-    background-color: #eee;
-}
-.footer li{
-    padding-left: 300px;
-    padding-right: 25%;
+.my-photo{
+    width: 150px;
+    height: 200px;
 }
 
+.sec-one{
+    width: 100%;
+    margin: auto;
+}
+.sec-one div{
+    display: inline-block;
+    width: 500px;
+}
+
+.data div:nth-child(1){
+    margin-bottom: 15px;
+    font-size: 4vw;
+}
+.data div:nth-child(2){
+    margin-bottom: 10px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.sec-one div:nth-child(1){
+    text-align: center;
+    margin-top: 50px;
+}
+.sec-one div:nth-child(2){
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 151px;
+}
+
+.sec-two span{
+    font-size: 5vw;
+    font-weight: bold;
+    margin-left: 40%;
+}
+/* form{
+    width: 500px;
+    margin: auto;
+}
+
+form label{
+font-size: 20px;
+} */
+
+.sub-form{
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 2rem;
+}
+label{
+    display: inline-block;
+}
+input, textarea{
+    display: block;
+    width: 100%;
+}
+
+ footer{
+    position: relative;
+ }
+ .fixed{
+    background-color: #eee;
+    width: 100%;
+    padding: 15px;
+    justify-content: space-around;
+    display: flex;
+    position: absolute;
+    top: 30px;
+   
+}
+
+.fixed span{
+    color: black;
+    font-size: 2vw;
+    font-weight: bold;
+}
