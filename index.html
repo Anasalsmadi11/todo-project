@@ -5,19 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
     
 </head>
+<body>
 <header>
-    <div><img src="./Images/to do.png" alt=""></div>
-    <nav>
-        <div class="nav-sort"><a href="./about.html">about page</a></div>
-        <div class="nav-sort">to do!</div>
-    </nav>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">TODO <span>List!</span></h2>
+            <ul>
+                <li>Home</li>
+               <li><a href="./about.html">About Us</a></li>
+                
+            </ul>
+        </nav>
+    </div>
 </header>
 <main>
-<br>
-<hr>
+    <br>
+    <hr>
+    
+    
+        <div class="todo-list">TO DO list</div>
     <table>
         <tr>
             <th>Tasks</th>
@@ -25,23 +35,27 @@
         </tr>
         <tr>
             <td>solving the lab</td>
-            <td>in progress</td>
+            <td><span></span></td>
         </tr>
         <tr>
             <td>practicing</td>
-            <td>done</td>
+            <td><span class="undone"></span></td>
         </tr>
         <tr>
             <td>creating a repo</td>
-            <td>done</td>
-
+            <td><span></span></td>
+            
         </tr>
     </table>
 </main>
 <footer>
-    &copy;  all rights reserved
+    <div>
+        <ul class="footer">
+            <li>&copy 2023 asac</li>
+            <li>all rights reserved</li>
+        </ul>
+    </div>
 </footer>
-<body>
     
 </body>
 </html>
