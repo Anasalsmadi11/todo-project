@@ -10,7 +10,7 @@ userGender ==""? alert("invalid user gender"):"";
 answersArr(userGender)
 
 let userAge = prompt("whats your age?")
-userAge <= 0 ? alert("you are under the required age") : userAge ==""?alert("invalid user age"):"";
+ userAge ==""?alert("invalid user age"):userAge <= 0 ? alert("you are under the required age") :"";
 answersArr(userAge)
 
 let confirmMsge = confirm("do you want to skip the welcoming message?")
