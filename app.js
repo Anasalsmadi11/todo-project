@@ -30,6 +30,7 @@ answersArr(questionThree)
 
 
 function answersArr(index) {
+    // let arr =[] i identify it at the top of the page not here because it will empty it every time i call the function
     if (index !== "") {
         arr.push(index)
     }
