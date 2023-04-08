@@ -4,7 +4,6 @@ let arr = []
 let userName = prompt("whats your name?").toUpperCase()
 userName == "" ? alert("invalid user name") : "";
 answersArr(userName)
-console.log(userName)
 
 let userGender = prompt("could you tell me about your gender please?").toLowerCase()
 userGender == "" ? alert("invalid user gender") : "";
