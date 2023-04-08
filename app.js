@@ -4,6 +4,7 @@ let arr = []
 let userName = prompt("whats your name?").toUpperCase()
 userName == "" ? alert("invalid user name") : "";
 answersArr(userName)
+console.log(userName)
 
 let userGender = prompt("could you tell me about your gender please?").toLowerCase()
 userGender == "" ? alert("invalid user gender") : "";
@@ -33,10 +34,15 @@ function answersArr(index) {
     // let arr =[] i identify it at the top of the page not here because it will empty it every time i call the function
     if (index !== "") {
         arr.push(index)
+    } else {
+        arr.push('invalid')
     }
 }
-console.log(arr)
+// console.log(arr)
 
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i])
+}
 
 function genderMessage() {
     if (confirmMsge === false) {
